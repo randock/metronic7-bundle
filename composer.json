@@ -1,0 +1,30 @@
+{
+    "name": "randock/metronic5-bundle",
+    "type": "project",
+    "license": "proprietary",
+    "require": {
+        "knplabs/knp-menu-bundle": "^2.1",
+        "symfony/twig-bundle": "^4.0"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-master",
+        "friendsofphp/php-cs-fixer": "*",
+        "randock/build": "dev-develop"
+    },
+    "config": {
+        "preferred-install": {
+            "*": "dist"
+        },
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "Randock\\Metronic7Bundle\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\Randock\\": "tests/"
+        }
+    }
+}

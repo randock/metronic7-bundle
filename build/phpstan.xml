@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle>
+<file name="src/DependencyInjection/Compiler/HeaderListPass.php">
+  <error line="33" column="1" severity="error" message="Parameter #1 $argument of class ReflectionClass constructor expects class-string&lt;T of object&gt;|T of object, string|null given." />
+  <error line="35" column="1" severity="error" message="Parameter #1 $class of class Randock\Metronic7Bundle\DependencyInjection\Compiler\Exception\ServiceDoesNotImplementHeaderListInterfaceException constructor expects string, string|null given." />
+</file>
+<file name="src/DependencyInjection/Compiler/MenuPass.php">
+  <error line="14" column="1" severity="error" message="Method Randock\Metronic7Bundle\DependencyInjection\Compiler\MenuPass::process() has no return typehint specified." />
+  <error line="24" column="1" severity="error" message="Parameter #1 $argument of class ReflectionClass constructor expects class-string&lt;T of object&gt;|T of object, string|null given." />
+  <error line="26" column="1" severity="error" message="Parameter #1 $class of class Randock\Metronic7Bundle\DependencyInjection\Compiler\Exception\ServiceDoesNotImplementMenuItemProviderInterfaceException constructor expects string, string|null given." />
+</file>
+<file name="src/DependencyInjection/Configuration.php">
+  <error line="14" column="1" severity="error" message="Class Symfony\Component\Config\Definition\Builder\TreeBuilder constructor invoked with 0 parameters, 1-3 required." />
+  <error line="15" column="1" severity="error" message="Call to an undefined method Symfony\Component\Config\Definition\Builder\TreeBuilder::root()." />
+</file>
+<file name="src/DependencyInjection/RandockMetronic7Extension.php">
+  <error line="19" column="1" severity="error" message="Method Randock\Metronic7Bundle\DependencyInjection\RandockMetronic5Extension::load() has no return typehint specified." />
+  <error line="19" column="1" severity="error" message="Method Randock\Metronic7Bundle\DependencyInjection\RandockMetronic5Extension::load() has parameter $configs with no value type specified in iterable type array." />
+</file>
+<file name="src/HeaderBuilder/HeaderBuilder.php">
+  <error line="11" column="1" severity="error" message="Property Randock\Metronic7Bundle\HeaderBuilder\HeaderBuilder::$services type has no value type specified in iterable type array." />
+  <error line="29" column="1" severity="error" message="Method Randock\Metronic7Bundle\HeaderBuilder\HeaderBuilder::setServices() has parameter $services with no value type specified in iterable type array." />
+  <error line="40" column="1" severity="error" message="Method Randock\Metronic7Bundle\HeaderBuilder\HeaderBuilder::getServices() return type has no value type specified in iterable type array." />
+</file>
+<file name="src/HeaderBuilder/HeaderList/Definition/HeaderListInterface.php">
+  <error line="14" column="1" severity="error" message="Method Randock\Metronic7Bundle\HeaderBuilder\HeaderList\Definition\HeaderListInterface::getOptions() return type has no value type specified in iterable type array." />
+  <error line="19" column="1" severity="error" message="Method Randock\Metronic7Bundle\HeaderBuilder\HeaderList\Definition\HeaderListInterface::getItems() return type has no value type specified in iterable type array." />
+</file>
+<file name="src/HeaderBuilder/HeaderList/NotificationHeaderListItem/NotificationHeaderListItem.php">
+  <error line="22" column="1" severity="error" message="Property Randock\Metronic7Bundle\HeaderBuilder\HeaderList\NotificationHeaderListItem\NotificationHeaderListItem::$linkAfterTitle type has no value type specified in iterable type array." />
+  <error line="23" column="1" severity="error" message="Property Randock\Metronic7Bundle\HeaderBuilder\HeaderList\NotificationHeaderListItem\NotificationHeaderListItem::$badge type has no value type specified in iterable type array." />
+  <error line="69" column="1" severity="error" message="Method Randock\Metronic7Bundle\HeaderBuilder\HeaderList\NotificationHeaderListItem\NotificationHeaderListItem::getLinkAfterTitle() return type has no value type specified in iterable type array." />
+  <error line="79" column="1" severity="error" message="Method Randock\Metronic7Bundle\HeaderBuilder\HeaderList\NotificationHeaderListItem\NotificationHeaderListItem::setLinkAfterTitle() has parameter $linkAfterTitle with no value type specified in iterable type array." />
+  <error line="89" column="1" severity="error" message="Method Randock\Metronic7Bundle\HeaderBuilder\HeaderList\NotificationHeaderListItem\NotificationHeaderListItem::getBadge() return type has no value type specified in iterable type array." />
+  <error line="99" column="1" severity="error" message="Method Randock\Metronic7Bundle\HeaderBuilder\HeaderList\NotificationHeaderListItem\NotificationHeaderListItem::setBadge() has parameter $badge with no value type specified in iterable type array." />
+</file>
+<file name="src/Menu/Item/MenuItemProviderInterface.php">
+  <error line="27" column="1" severity="error" message="Method Randock\Metronic7Bundle\Menu\Item\MenuItemProviderInterface::addItems() has parameter $menu with no value type specified in iterable type Knp\Menu\ItemInterface." />
+  <error line="27" column="1" severity="error" message="Method Randock\Metronic7Bundle\Menu\Item\MenuItemProviderInterface::addItems() return type has no value type specified in iterable type Knp\Menu\ItemInterface." />
+</file>
+<file name="src/Menu/MenuBuilder.php">
+  <error line="21" column="1" severity="error" message="Property Randock\Metronic7Bundle\Menu\MenuBuilder::$services type has no value type specified in iterable type array." />
+  <error line="38" column="1" severity="error" message="Method Randock\Metronic7Bundle\Menu\MenuBuilder::setServices() has parameter $services with no value type specified in iterable type array." />
+  <error line="48" column="1" severity="error" message="Method Randock\Metronic7Bundle\Menu\MenuBuilder::loadServices() has parameter $menu with no value type specified in iterable type Knp\Menu\ItemInterface." />
+  <error line="51" column="1" severity="error" message="Cannot call method addItems() on object|null." />
+  <error line="58" column="1" severity="error" message="Method Randock\Metronic7Bundle\Menu\MenuBuilder::reorderMenuItems() has parameter $menu with no value type specified in iterable type Knp\Menu\ItemInterface." />
+  <error line="65" column="1" severity="error" message="PHPDoc tag @var for variable $menuItem has no value type specified in iterable type Knp\Menu\ItemInterface." />
+</file>
+<file name="src/Menu/MenuBuilder1.php">
+  <error line="17" column="1" severity="error" message="Method Randock\Metronic7Bundle\Menu\MenuBuilder1::createMainMenu() return type has no value type specified in iterable type Knp\Menu\ItemInterface." />
+  <error line="33" column="1" severity="error" message="Method Randock\Metronic7Bundle\Menu\MenuBuilder1::addSubmenu() has parameter $item with no value type specified in iterable type Knp\Menu\ItemInterface." />
+  <error line="54" column="1" severity="error" message="Method Randock\Metronic7Bundle\Menu\MenuBuilder1::createTopMenu() return type has no value type specified in iterable type Knp\Menu\ItemInterface." />
+  <error line="69" column="1" severity="error" message="Method Randock\Metronic7Bundle\Menu\MenuBuilder1::setTopMenuItemsClasses() has parameter $item with no value type specified in iterable type Knp\Menu\ItemInterface." />
+  <error line="72" column="1" severity="error" message="PHPDoc tag @var for variable $child has no value type specified in iterable type Knp\Menu\ItemInterface." />
+</file>
+<file name="src/Menu/MenuBuilder5.php">
+  <error line="20" column="1" severity="error" message="Method Randock\Metronic7Bundle\Menu\MenuBuilder5::createMainMenu() return type has no value type specified in iterable type Knp\Menu\ItemInterface." />
+  <error line="36" column="1" severity="error" message="Method Randock\Metronic7Bundle\Menu\MenuBuilder5::addSubmenu() has parameter $item with no value type specified in iterable type Knp\Menu\ItemInterface." />
+  <error line="60" column="1" severity="error" message="Method Randock\Metronic7Bundle\Menu\MenuBuilder5::createTopMenu() return type has no value type specified in iterable type Knp\Menu\ItemInterface." />
+  <error line="72" column="1" severity="error" message="Method Randock\Metronic7Bundle\Menu\MenuBuilder5::setTopMenuItemsClasses() has parameter $item with no value type specified in iterable type Knp\Menu\ItemInterface." />
+  <error line="75" column="1" severity="error" message="PHPDoc tag @var for variable $child has no value type specified in iterable type Knp\Menu\ItemInterface." />
+</file>
+</checkstyle>
