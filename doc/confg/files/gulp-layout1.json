@@ -29,7 +29,7 @@
             "cssSourcemaps": false
         },
         "path": {
-            "src": "./vendor/randock/metronic5-bundle/src/Resources/public",
+            "src": "./vendor/randock/metronic7-bundle/src/Resources/public",
             "node_modules": "./node_modules",
             "demo_api_url": "https://keenthemes.com/metronic/tools/preview/"
         },
@@ -77,22 +77,23 @@
                         },
                         "keenthemes-icons": {
                             "styles": [
-                                "{$config.path.src}/vendors/keenthemes-icons/font/ki.css"
+                                "{$config.path.src}/plugins/keenthemes-icons/font/ki.css"
                             ],
                             "fonts": [
-                                "{$config.path.src}/vendors/keenthemes-icons/font/**"
+                                "{$config.path.src}/plugins/keenthemes-icons/font/**"
                             ]
                         }
                     },
                     "optional": {
                         "formvalidation": {
                             "styles": [
-                                "{$config.path.src}/vendors/formvalidation/dist/css/formValidation.css"
+                                "{$config.path.src}/plugins/formvalidation/dist/css/formValidation.css"
                             ],
                             "scripts": [
                                 "{$config.path.node_modules}/es6-shim/es6-shim.min.js",
-                                "{$config.path.src}/vendors/formvalidation/dist/js/FormValidation.full.min.js",
-                                "{$config.path.src}/vendors/formvalidation/dist/js/plugins/Bootstrap.min.js"
+                                "{$config.path.src}/plugins/formvalidation/dist/js/FormValidation.full.min.js",
+                                "{$config.path.src}/plugins/formvalidation/dist/js/plugins/Bootstrap.min.js",
+                                "{$config.path.src}/plugins/formvalidation/dist/js/plugins/Bootstrap.min.js"
                             ]
                         },
                         "block-ui": {
@@ -106,7 +107,7 @@
                             ],
                             "scripts": [
                                 "{$config.path.node_modules}/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js",
-                                "{$config.path.src}/js/demo/default/vendors/plugins/bootstrap-datepicker.init.js"
+                                "{$config.path.src}/js/vendors/plugins/bootstrap-datepicker.init.js"
                             ]
                         },
                         "bootstrap-datetime-picker": {
@@ -123,7 +124,7 @@
                             ],
                             "scripts": [
                                 "{$config.path.node_modules}/bootstrap-timepicker/js/bootstrap-timepicker.min.js",
-                                "{$config.path.src}/js/demo/default/vendors/plugins/bootstrap-timepicker.init.js"
+                                "{$config.path.src}/js/vendors/plugins/bootstrap-timepicker.init.js"
                             ]
                         },
                         "bootstrap-daterangepicker": {
@@ -149,7 +150,7 @@
                         },
                         "bootstrap-multiselectsplitter": {
                             "scripts": [
-                                "{$config.path.src}/vendors/bootstrap-multiselectsplitter/bootstrap-multiselectsplitter.min.js"
+                                "{$config.path.src}/plugins/bootstrap-multiselectsplitter/bootstrap-multiselectsplitter.min.js"
                             ]
                         },
                         "bootstrap-select": {
@@ -166,7 +167,7 @@
                             ],
                             "scripts": [
                                 "{$config.path.node_modules}/bootstrap-switch/dist/js/bootstrap-switch.js",
-                                "{$config.path.src}/js/demo/default/vendors/plugins/bootstrap-switch.init.js"
+                                "{$config.path.src}/js/vendors/plugins/bootstrap-switch.init.js"
                             ]
                         },
                         "select2": {
@@ -285,12 +286,12 @@
                         },
                         "bootstrap-session-timeout": {
                             "scripts": [
-                                "{$config.path.src}/vendors/bootstrap-session-timeout/dist/bootstrap-session-timeout.min.js"
+                                "{$config.path.src}/plugins/bootstrap-session-timeout/dist/bootstrap-session-timeout.min.js"
                             ]
                         },
                         "jquery-idletimer": {
                             "scripts": [
-                                "{$config.path.src}/vendors/jquery-idletimer/idle-timer.min.js"
+                                "{$config.path.src}/plugins/jquery-idletimer/idle-timer.min.js"
                             ]
                         },
                         "counterup": {
@@ -319,38 +320,6 @@
                                 "{$config.path.node_modules}/jquery.repeater/src/lib.js",
                                 "{$config.path.node_modules}/jquery.repeater/src/jquery.input.js",
                                 "{$config.path.node_modules}/jquery.repeater/src/repeater.js"
-                            ]
-                        },
-                        "line-awesome": {
-                            "styles": [
-                                "{$config.path.node_modules}/line-awesome/dist/line-awesome/css/line-awesome.css"
-                            ],
-                            "fonts": [
-                                "{$config.path.node_modules}/line-awesome/dist/line-awesome/fonts/**"
-                            ]
-                        },
-                        "flaticon": {
-                            "styles": [
-                                "{$config.path.src}/vendors/flaticon/flaticon.css"
-                            ],
-                            "fonts": [
-                                "{$config.path.src}/vendors/flaticon/font/**"
-                            ]
-                        },
-                        "flaticon2": {
-                            "styles": [
-                                "{$config.path.src}/vendors/flaticon2/flaticon.css"
-                            ],
-                            "fonts": [
-                                "{$config.path.src}/vendors/flaticon2/font/**"
-                            ]
-                        },
-                        "socicon": {
-                            "styles": [
-                                "{$config.path.node_modules}/socicon/css/socicon.css"
-                            ],
-                            "fonts": [
-                                "{$config.path.node_modules}/socicon/font/**"
                             ]
                         },
                         "@fortawesome": {
