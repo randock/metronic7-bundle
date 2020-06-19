@@ -2,4 +2,4 @@
 
 var requireDir = require('require-dir');
 
-requireDir('./vendor/randock/metronic5-bundle/tools/gulp', {recurse: true});
+requireDir('./vendor/randock/metronic7-bundle/tools/gulp', {recurse: true});

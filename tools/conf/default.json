@@ -29,7 +29,7 @@
             "cssSourcemaps": false
         },
         "path": {
-            "src": "./vendor/randock/metronic5-bundle/src/Resources/public",
+            "src": "./vendor/randock/metronic7-bundle/src/Resources/public",
             "node_modules": "./node_modules",
             "demo_api_url": "https://keenthemes.com/metronic/tools/preview/"
         },
